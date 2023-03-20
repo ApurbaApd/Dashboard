@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import { useLogin } from "@pankod/refine-core";
-import { Container, Box } from "@pankod/refine-mui";
+import { Container, Box, height } from "@pankod/refine-mui";
 
 // import { yariga } from "assets1/assets";
 import {logo} from 'assets1/assets';
@@ -29,8 +29,8 @@ export const Login: React.FC = () => {
           },
         });
         window.google.accounts.id.renderButton(divRef.current, {
-          theme: "filled_blue",
-          size: "medium",
+          theme: "filled_black",
+          size: "large",
           type: "standard",
         });
       } catch (error) {
@@ -42,7 +42,7 @@ export const Login: React.FC = () => {
   };
 
   return (
-    <Box component="div" sx={{ backgroundColor: "#FCFCFC" }}>
+    <Box component="div" sx={{ backgroundColor: "#87CEEB" }}>
       <Container
         component="main"
         maxWidth="xs"
@@ -63,7 +63,7 @@ export const Login: React.FC = () => {
         >
           <div>
             <img src={logo} alt="Logo" width="100px" />
-            <p >Dashborad</p>
+            <p className="dash" >Dashborad</p>
           </div>
           <Box mt={4}>
             <GoogleButton />

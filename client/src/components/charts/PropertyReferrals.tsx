@@ -40,7 +40,7 @@ const PropertyReferrals = () => {
   return (
     <Box
       p={4}
-      bgcolor="#fcfcfc"
+      bgcolor="#BDF0C0"
       id="chart"
       minWidth={480}
       display="flex"

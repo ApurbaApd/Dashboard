@@ -20,7 +20,7 @@ export const Header: React.FC = () => {
 
   return shouldRenderHeader ? (
     <AppBar color="default" position="sticky" elevation={0} sx={{
-      background:'#fcfcfc'
+      background:"#A5E8F0"
     }}>
       <Toolbar>
         <Stack
@@ -29,13 +29,13 @@ export const Header: React.FC = () => {
           justifyContent="flex-end"
           alignItems="center"
         >
-          {/* <IconButton
+          <IconButton
             onClick={() => {
               setMode();
             }}
           >
             {mode === "dark" ? <LightModeOutlined /> : <DarkModeOutlined />}
-          </IconButton> */}
+          </IconButton>
           <Stack
             direction="row"
             gap="16px"

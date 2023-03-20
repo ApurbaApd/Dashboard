@@ -8,7 +8,7 @@ const TotalRevenue = () => {
     <Box
       p={4}
       flex={1}
-      bgcolor="#fcfcfc"
+      bgcolor="#99E3F0"
       id="chart"
       display="flex"
       flexDirection="column"

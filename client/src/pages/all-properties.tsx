@@ -13,6 +13,7 @@ import { useMemo } from "react";
 
 import { PropertyCard, CustomButton } from "components";
 import PropertyCrad from "components/commom/PropertyCrad";
+import { color } from "framer-motion";
 
 const AllProperties = () => {
   const navigate = useNavigate();

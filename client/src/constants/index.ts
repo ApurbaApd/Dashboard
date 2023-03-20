@@ -20,6 +20,11 @@ export const propertyReferralsInfo = [
       color: '#FFA2C0',
     },
     {
+      title: 'Digital revenue',
+      percentage: 80,
+      color: 'green',
+    },
+    {
       title: 'Others',
       percentage: 15,
       color: '#F45252',
